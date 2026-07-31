@@ -5,19 +5,19 @@
     "command": "editor.action.transformToUppercase"
   },
   {
-    "key": "shift+ctrl+l",
+    "key": "ctrl+shift+l",
     "command": "editor.action.transformToLowercase"
   },
   {
-    "key": "shift+ctrl+,",
+    "key": "ctrl+shift+,",
     "command": "workbench.action.openSettings2"
   },
   {
-    "key": "shift+ctrl+b",
+    "key": "ctrl+shift+b",
     "command": "workbench.action.toggleActivityBarVisibility"
   },
   {
-    "key": "shift+ctrl+g",
+    "key": "ctrl+shift+g",
     "command": "workbench.view.scm",
     "when": "workbench.scm.active"
   },
@@ -31,13 +31,11 @@
     "command": "workbench.action.openApplicationSettingsJson"
   },
   {
-    "key": "alt+ctrl+up",
-    "command": "-editor.action.insertCursorAbove",
-    "when": "editorTextFocus"
+    "key": "ctrl+shift+up",
+    "command": "-editor.action.insertCursorAbove"
   },
   {
-    "key": "alt+ctrl+down",
-    "command": "-editor.action.insertCursorBelow",
-    "when": "editorTextFocus"
+    "key": "ctrl+shift+down",
+    "command": "-editor.action.insertCursorBelow"
   }
 ]
