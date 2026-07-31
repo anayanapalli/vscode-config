@@ -1,18 +1,23 @@
 {
   "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.openRepositoryInParentFolders": "never",
+
   "explorer.confirmPasteNative": false,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
 
   "workbench.editor.empty.hint": "hidden",
-  "workbench.sideBar.location": "right",
-  "breadcrumbs.enabled": false,
   "workbench.editor.enablePreview": false,
+  "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
+
+  "breadcrumbs.enabled": false,
 
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "none",
   "editor.formatOnPaste": false,
   "editor.formatOnSave": true,
   "editor.formatOnType": false,
@@ -31,9 +36,6 @@
 
   "update.showReleaseNotes": false,
 
-  "git.enableSmartCommit": true,
-  "git.openRepositoryInParentFolders": "never",
-
   "github.copilot.editor.enableAutoCompletions": false,
   "github.copilot.enable": {
     "*": false,
@@ -46,5 +48,5 @@
   "claudeCode.preferredLocation": "panel",
   "chat.viewSessions.orientation": "stacked",
 
-  "terminal.integrated.defaultProfile.windows": "PowerShell"
+  "terminal.integrated.defaultProfile.osx": "zsh"
 }
