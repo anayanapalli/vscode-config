@@ -1,0 +1,43 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "ctrl+shift+u",
+    "command": "editor.action.transformToUppercase",
+  },
+  {
+    "key": "shift+cmd+l",
+    "command": "editor.action.transformToLowercase",
+  },
+  {
+    "key": "shift+cmd+,",
+    "command": "workbench.action.openSettings2",
+  },
+  {
+    "key": "shift+cmd+b",
+    "command": "workbench.action.toggleActivityBarVisibility",
+  },
+  {
+    "key": "shift+cmd+g",
+    "command": "workbench.view.scm",
+    "when": "workbench.scm.active",
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "-workbench.view.scm",
+    "when": "workbench.scm.active",
+  },
+  {
+    "key": "cmd+,",
+    "command": "workbench.action.openApplicationSettingsJson",
+  },
+  {
+    "key": "alt+cmd+up",
+    "command": "-editor.action.insertCursorAbove",
+    "when": "editorTextFocus",
+  },
+  {
+    "key": "alt+cmd+down",
+    "command": "-editor.action.insertCursorBelow",
+    "when": "editorTextFocus",
+  },
+]
